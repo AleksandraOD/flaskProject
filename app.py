@@ -1,6 +1,7 @@
 from flask import Flask, request
 import joblib
 import numpy
+import sklearn
 
 MODEL_PATH = 'mlmodels/model.pkl'
 SCALER_X_PATH = 'mlmodels/scaler_x.pkl'
