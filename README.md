@@ -47,9 +47,12 @@ This will create a Docker image with the tag price-predictor. To run a container
 	
 ## How to run app using docker and which port it uses
 
-The app uses 5444 port
+The app uses 5444 port.
+
 To run it connect to remote VM with ssh, activate env ```source env/bin/activate```, build and run container. 
 
-To check that its working, you can use Postman. The url: ```158.160.18.241:5444/predict_price?open_plan=0&rooms=2&area=1000&renovation=10```
+To check that its working, you can use Postman. The url:
+
+```158.160.18.241:5444/predict_price?open_plan=0&rooms=2&area=1000&renovation=10```
 
 
