@@ -11,10 +11,14 @@ For this project I use data from logs of Yandex.Realty
 Our raw dataset contains **429187 records**, but it will be limited by location. For this project we will only use data about realty in ST.Petersburg. There are **156054 records** about realty in St.Petersburg.
 
 The data has following information: 
+
 ![alt text](https://github.com/AleksandraOD/flaskProjectFinal/blob/main/Снимок%20экрана%202023-06-10%20в%2007.30.42.png)
+
 The correlation betwee some of the parameters:
+
 ![alt text](https://github.com/AleksandraOD/flaskProjectFinal/blob/main/heatmap.png)
 Categorical parameters:
+
 ![alt text](https://github.com/AleksandraOD/flaskProjectFinal/blob/main/Categorical%20data.png)
 
 For further steps I preprocessed data by removing non-valid values and dropped irrelevant parameters.
