@@ -25,8 +25,6 @@ In this project i tried several models (Random forest, Linear regression and LTS
 
 The parameters are rooms, area, open plan and renovation.
 	
-* How to install instructions and run your app with virtual environment
-	
 ## Information about Dockerfile
 This Dockerfile is used to build a Docker image for a price predictor application. Here is a breakdown of the instructions:
 
@@ -44,12 +42,14 @@ To build the Docker image, navigate to the directory containing the Dockerfile a
 ```docker build -t price-predictor```
 
 This will create a Docker image with the tag price-predictor. To run a container based on this image, use the docker run command:
+
 ```docker run --network host -d <container name>```
-
-
-	
-* How to open the port in your remote VM
 	
 ## How to run app using docker and which port it uses
+
+The app uses 5444 port
+To run it connect to remote VM with ssh, activate env ```source env/bin/activate```, build and run container. 
+
+To check that its working, you can use Postman. The url: ```158.160.18.241:5444/predict_price?open_plan=0&rooms=2&area=1000&renovation=10```
 
 
