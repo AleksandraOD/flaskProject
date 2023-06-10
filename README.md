@@ -13,7 +13,7 @@ Our raw dataset contains **429187 records**, but it will be limited by location.
 The data has following information:
 
 Inline-style: 
-![alt text]( "Logo Title Text 1")
+![alt text](https://github.com/AleksandraOD/flaskProjectFinal/blob/main/Снимок%20экрана%202023-06-10%20в%2007.30.42.png)
 
 
 * Information about source data and some statistics you've used for building your ml model (maybe plots, tables, images, ways to clean the data, pipelines and etc.)
